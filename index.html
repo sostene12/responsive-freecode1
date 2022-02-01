@@ -85,6 +85,24 @@
             </h3>
         </div>
     </div>
+    <script>
+        const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
+        ages.map(age => {
+            console.log(age);
+        });
+
+        let users = [
+            { fname: 'sostene', lname: 'ng' },
+            { fname: 'leonie', lname: 'mur' },
+            { fname: 'consolee', lname: 'mad' }
+        ];
+
+        const newArr = users.map(user => {
+            return `${user.lname} ${user.fname}`;
+            // return user.fname + " " + user.lname;
+        })
+        console.log(newArr);
+    </script>
 </body>
 
 </html>
